@@ -1,6 +1,6 @@
 # 💳 CreditIQ
 
-> **An AI-powered, full-stack credit score simulator designed to make financial literacy interactive, accessible, and hands-on.**
+> **A modern, AI-powered, full-stack credit score simulator designed to make financial literacy interactive, accessible, and hands-on.**
 
 CreditIQ enables users to build financial confidence by making realistic financial decisions and instantly seeing how those choices affect a simulated credit score. Every action is accompanied by personalised AI coaching that explains **why** the score changed and recommends practical next steps for improvement.
 
