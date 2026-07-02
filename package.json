@@ -1,0 +1,32 @@
+{
+  "name": "hacknotts",
+  "version": "1.0.0",
+  "description": "> **An AI-powered, full-stack credit score simulator designed to make financial literacy interactive, accessible, and hands-on.**",
+  "main": "index.js",
+ "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clerk/nextjs": "^7.5.9",
+    "@tailwindcss/postcss": "^4.3.1",
+    "cohere-ai": "^8.0.0",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.2",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.1",
+    "typescript": "^6.0.3"
+  }
+}

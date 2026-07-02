@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-brand-950: #0d0520;
+  --color-brand-900: #160a35;
+  --color-brand-800: #21104f;
+  --color-brand-700: #2e1570;
+  --color-brand-600: #4c1d9e;
+  --color-brand-500: #6d28d9;
+  --color-brand-400: #8b5cf6;
+  --color-brand-300: #a78bfa;
+  --color-brand-200: #c4b5fd;
+  --color-brand-100: #ede9fe;
+
+  /* Glassmorphism Colors */
+  --color-glass-bg: rgba(255, 255, 255, 0.04);
+  --color-glass-border: rgba(255, 255, 255, 0.08);
+  --color-glass-hover: rgba(255, 255, 255, 0.07);
+
+  /* Fonts */
+  --font-sans: var(--font-inter), sans-serif;
+  --font-display: var(--font-space-grotesk), sans-serif;
+
+  /* Shadows */
+  --shadow-glow: 0 0 40px rgba(109, 40, 217, 0.3);
+  --shadow-card: 0 20px 60px rgba(0,0,0,0.5);
+
+  /* Background Images */
+  --background-image-radial-glow: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(109,40,217,0.25) 0%, transparent 70%), radial-gradient(ellipse 40% 40% at 90% 80%, rgba(6,182,212,0.08) 0%, transparent 60%);
+}
+
+/* Base Body Styles (No @apply needed) */
+@layer base {
+  body {
+    background-color: var(--color-brand-950);
+    background-image: var(--background-image-radial-glow);
+    color: #f3f4f6;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
